@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 
-const BASE = '/api';
+const BASE = 'https://arcadiamerch-pweb.onrender.com/api';
 
 export function useProducts(filters = {}) {
   const [products, setProducts] = useState([]);
